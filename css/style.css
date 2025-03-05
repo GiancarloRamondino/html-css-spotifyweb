@@ -48,29 +48,31 @@ footer{
 
 .col{
     border:1px solid black;
-    height: calc(100vh/3);
+    height: 35%;
+    width: 100%;
     display: inline-flex;
     flex-wrap: wrap;
     text-align: center;
+    background-color: aquamarine;
 }
 
 .square{
     background-color: red;
     border:1px solid black;
     margin: 20px;
-    height: 50%;
-    width: 50%
+    height:50%;
+    width: 50%;
+    text-align: center;
 }
 
 .square-w{
-    width: 200px;
-    text-align: center
+    text-align: center;
 }
 
 #content{
     width: calc(100vw - 150px);
-    height: 1300px;
-    min-height: 400px;
+    height:2000px;
+    
     overflow-y: auto;
 }
 
