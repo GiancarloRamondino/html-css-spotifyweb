@@ -151,6 +151,12 @@ p{
     padding: 3px;
 }
 
+.plus-bgray-icon{
+    background-color: grey;
+    margin-top: 5px;
+    padding: 21px 12px 11px 9px;
+}
+
 .bord-white{
     border: solid white 2px;
 }
@@ -196,4 +202,7 @@ img{
     filter: grayscale (50%)
 }
 
+.z-index{
+    z-index: 1;
+}
 
