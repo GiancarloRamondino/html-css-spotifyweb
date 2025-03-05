@@ -12,6 +12,24 @@ header{
     top: 0;
 }
 
+.botton-position{
+    text-align-last: right;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+}
+button{
+    border: solid  white 2px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
 /*main*/
 main{
     height: calc(100vh - 150px);
