@@ -38,6 +38,15 @@ footer{
     flex-direction: column;
 }
 
+.wrap{
+flex-wrap: wrap;
+}
+
+.aling-b{
+    align-content: space-between;
+}
+
+
 .hidden{
     display: none
 }
@@ -55,6 +64,8 @@ footer{
     justify-items: center;
 }
 
+
+
 .square{
     background-color: red;
     border:1px solid black;
@@ -65,8 +76,15 @@ footer{
 }
 
 .square-w{
-    width: 50%;
-    
+    width:50%; 
+}
+
+.wid-100{
+    width: 100%;
+}
+
+.nobr{
+    white-space:nowrap
 }
 
 #content{
@@ -85,6 +103,10 @@ p{
     margin: 10px;
 }
 
+.marg-l-10{
+    margin: 10px;
+}
+
 .color-white{
     color: white;
 }
@@ -93,8 +115,17 @@ p{
     color: grey;
 }
 
+.bgray-icon{
+    background-color: grey;
+    border: solid white 2px;
+    margin-top: 5px;
+    gap: 11px;
+    padding: 3px;
+}
+
 li{
     list-style: none;
+    
 }
 
 img{
@@ -105,6 +136,28 @@ img{
 .target-circle {
     border-radius: 50%;
 }
+.marg-l-10 > li{
+    padding: 5px;
 
+}
+.icon-size{
+    height: 40px;
+    width: 40px;
+}
+.icon-small{
+    height: 20px;
+    width: 20px;
+}
+
+.text-icon{
+    display: inline-flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.padding-right{
+    padding-right: 4px;
+}
 
 
