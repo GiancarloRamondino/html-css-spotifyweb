@@ -57,12 +57,44 @@ footer{
     margin-top: 20px;
 }
 
+
 /*utility*/
+
+.padding-20{
+    padding: 20px;
+}
+.padding-5{
+    padding: 5px;
+}
+.padding-right{
+    padding-right: 4px;
+}
+.padding-left{
+    padding-left: 25px;
+}
+
 .row{
     display: flex;
 }
 .d-column{
     flex-direction: column;
+}
+
+.j-content-cent{
+    justify-content: center;
+}
+
+.aling-center{
+    align-content: center;
+}
+
+.aling-i-center{
+    align-items: center;
+}
+
+
+.align-self-c{
+    align-self: center
 }
 
 .wrap{
@@ -71,6 +103,10 @@ flex-wrap: wrap;
 
 .aling-b{
     align-content: space-between;
+}
+
+.j-content-beet{
+    justify-content: space-between
 }
 
 
@@ -144,15 +180,40 @@ p{
     color: grey;
 }
 
+.color-grey-light{
+    color: rgb(179, 179, 179);
+}
+
+.color-green{
+    color:rgb(8, 255, 8)
+}
+
+.div-color-green{
+    border-top: solid 3px;
+    width: 60%;
+}
+
+.div-color-green-left{
+    border-left: solid 4px;
+    
+    color:rgb(8, 255, 8)
+}
+
+.green-fix{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .bgray-icon{
-    background-color: grey;
+    background-color: rgb(179, 179, 179);
     margin-top: 5px;
     gap: 11px;
     padding: 3px;
 }
 
 .plus-bgray-icon{
-    background-color: grey;
+    background-color: rgb(179, 179, 179);
     margin-top: 5px;
     padding: 21px 12px 11px 9px;
 }
@@ -176,8 +237,8 @@ img{
 }
 .marg-l-10 > li{
     padding: 5px;
-
 }
+
 .icon-size{
     height: 40px;
     width: 40px;
@@ -194,9 +255,7 @@ img{
     justify-content: space-evenly;
 }
 
-.padding-right{
-    padding-right: 4px;
-}
+
 
 .filtro{
     filter: grayscale (50%)
@@ -205,4 +264,46 @@ img{
 .z-index{
     z-index: 1;
 }
+.patua-one-regular {
+    font-family: "Patua One", serif;
+  }
+
+
+.whr-1{
+    width: 600px;
+}
+.whr-2{
+    width: 300px;
+}
+
+.whr-3{
+    width: 60px;
+}
+.whr-4{
+    width: 30px;
+}
+/*hover*/
+.card-white{
+    
+}
+.card-white:hover{
+    color: white;
+}
+
+.card-size{
+
+}
+.card-size:hover{
+    padding: 20px;
+}
+
+.card-image{
+
+}
+
+.card-image:hover{
+    opacity:  0;
+}
+
+
 
