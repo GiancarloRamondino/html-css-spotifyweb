@@ -48,6 +48,15 @@ footer{
     background-color: black;
 }
 
+.linear{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 /*utility*/
 .row{
     display: flex;
@@ -88,9 +97,7 @@ flex-wrap: wrap;
     background-color: red;
     border:1px solid black;
     margin: 20px;
-    height: 50%;
-    width: 50%;
-    text-align: center
+    text-align: center;
 }
 
 .square-w{
@@ -129,16 +136,23 @@ p{
     color: white;
 }
 
+.color-black{
+    color: black;
+}
+
 .color-grey{
     color: grey;
 }
 
 .bgray-icon{
     background-color: grey;
-    border: solid white 2px;
     margin-top: 5px;
     gap: 11px;
     padding: 3px;
+}
+
+.bord-white{
+    border: solid white 2px;
 }
 
 li{
@@ -176,6 +190,10 @@ img{
 
 .padding-right{
     padding-right: 4px;
+}
+
+.filtro{
+    filter: grayscale (50%)
 }
 
 
