@@ -298,12 +298,19 @@ img{
 }
 
 .card-image{
-
+    position: relative;
+    opacity: 1;  
 }
 
 .card-image:hover{
-    opacity:  0;
+    opacity: 0.5;
+    
 }
+
+.position-card{
+
+}
+
 
 
 
