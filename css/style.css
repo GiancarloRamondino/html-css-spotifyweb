@@ -6,10 +6,11 @@
 
 /*header*/
 header{
-    position:  sticky;
+    position: sticky;
     height: 75px;
     background-color: rgba(0, 0, 0, 0.822);
     top: 0;
+    z-index: 1;
 }
 
 .botton-position{
@@ -37,9 +38,11 @@ main{
     display: flex;
 }
 #sidebar{
-    width: 150px;
-    height: 100%;
-    background-color: rgb(202, 6, 6);
+    width: 175px;
+    height:  100%;
+    background-color: rgb(202, 6, 6); 
+    overflow-y: hidden;
+
 }
 
 /*footeer*/
@@ -268,20 +271,45 @@ img{
     font-family: "Patua One", serif;
   }
 
-
 .whr-1{
     width: 600px;
+    background-color: rgb(123, 121, 121);
+    padding: 1px;
+    border-radius: 25%;
 }
 .whr-2{
+    margin-top: 5px;
     width: 300px;
+    background-color: aliceblue;
+    border-radius: 25%;
+    padding: 1px;
 }
 
 .whr-3{
     width: 60px;
+    background-color: rgb(123, 121, 121);
+    border-radius: 25%;
 }
 .whr-4{
     width: 30px;
+    background-color: aliceblue;
+    border-radius: 25%;
 }
+
+.point{
+    bottom: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    border: solid 1px grey;
+    background-color: white;
+    width: 2px;
+    position: relative;
+    right: -295px;
+}
+.position-rl{
+    position: relative;
+}
+
 /*hover*/
 .card-white{
     
@@ -302,13 +330,24 @@ img{
     opacity: 1;  
 }
 
+
+
 .card-image:hover{
-    opacity: 0.5;
-    
+    opacity: 0.7;
+    content: url(https://static.vecteezy.com/ti/vettori-gratis/t2/7126491-icona-vettore-pulsante-riproduzione-musicale-vettoriale.jpg);
+    width: 100%;
+    height: max-content;
 }
 
 .position-card{
 
+}
+
+.z-index-0{
+  z-index: 0;
+}
+.z-index-1{
+  z-index: 1;
 }
 
 
