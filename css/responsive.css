@@ -5,17 +5,122 @@
 }
 
 @media screen and (max-width: 1280px){
+    .size-target-card{
+        width: calc(100vw/6)
+    }
+    .patua-one-regular {
+        font-family: "Patua One", serif;
+        font-size: large;
+      }
+      .whr-1{
+        width: 450px;
+        background-color: rgb(123, 121, 121);
+        padding: 1px;
+        border-radius: 25%;
+    }
+    .whr-2{
+        margin-top: 5px;
+        width: 250px;
+        background-color: aliceblue;
+        border-radius: 25%;
+        padding: 1px;
+    }
     
+    .whr-3{
+        width: 55px;
+        background-color: rgb(123, 121, 121);
+        border-radius: 25%;
+    }
+    .whr-4{
+        width: 25px;
+        background-color: aliceblue;
+        border-radius: 25%;
+    }
+    .size-foot-img{
+        width: 125px;
+        height: 125px;
+    }
 
 }  
 @media screen and (max-width: 980px){
-   
+    .size-target-card{
+        width: calc(100vw/6)
+    }
+    .patua-one-regular {
+        font-family: "Patua One", serif;
+        font-size: medium;
+    }
 
+    .whr-1{
+        width: 200px;
+        background-color: rgb(123, 121, 121);
+        padding: 1px;
+        border-radius: 25%;
+    }
+    .whr-2{
+        margin-top: 5px;
+        width: 100px;
+        background-color: aliceblue;
+        border-radius: 25%;
+        padding: 1px;
+    }
+    
+    .whr-3{
+        width: 55px;
+        background-color: rgb(123, 121, 121);
+        border-radius: 25%;
+    }
+    .whr-4{
+        width: 25px;
+        background-color: aliceblue;
+        border-radius: 25%;
+    }
+    .size-foot-img{
+        width: 50%;
+    }
 }  
 
 
 
 @media screen and (max-width: 720px){
+    .size-target-card{
+        width: calc(100vw/4)
+    }
+    .patua-one-regular {
+        font-family: "Patua One", serif;
+        font-size: small;
+    }
+    .whr-1{
+        width: 200px;
+        background-color: rgb(123, 121, 121);
+        padding: 1px;
+        border-radius: 25%;
+    }
+    .whr-2{
+        margin-top: 5px;
+        width: 100px;
+        background-color: aliceblue;
+        border-radius: 25%;
+        padding: 1px;
+    }
+    
+    .whr-3{
+        width: 25px;
+        background-color: rgb(123, 121, 121);
+        border-radius: 25%;
+    }
+    .whr-4{
+        width: 15px;
+        background-color: aliceblue;
+        border-radius: 25%;
+    }
+
+    .size-foot-img{
+        width:125px;
+        height: 125px;
+    }
+   
+
 
 
 }  
@@ -32,10 +137,50 @@
         height:  100%;
         background-color: rgb(202, 6, 6); 
         overflow-y: hidden;
-    
     }
 
+    .size-target-card{
+        width: calc(100vw/2);
+    }
+    .patua-one-regular {
+        font-family: "Patua One", serif;
+        font-size: xx-small;
+    }
+    .whr-1{
+        width: 15px;
+        background-color: rgb(123, 121, 121);
+        padding: 1px;
+        border-radius: 25%;
+    }
+    .whr-2{
+        margin-top: 5px;
+        width: 10px;
+        background-color: aliceblue;
+        border-radius: 25%;
+        padding: 1px;
+    }
+    
+    .whr-3{
+        width:10px;
+        background-color: rgb(123, 121, 121);
+        border-radius: 25%;
+    }
+    .whr-4{
+        width: 5px;
+        background-color: aliceblue;
+        border-radius: 25%;
+    }
+    .size-foot-img{
+        width: 100px;
+        height: 100px;
 
+    }
+    #content{
+        width: calc(100vw - 70px);
+        min-height: calc(100vh - 150px);
+        overflow-y: auto;
+        height: calc(100vh/3);
+    }
 }  
 
 

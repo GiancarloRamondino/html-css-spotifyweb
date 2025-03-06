@@ -34,13 +34,13 @@ button{
 /*main*/
 main{
     height: calc(100vh - 150px);
-    background-color: rgb(73, 4, 163);
+    background-color: rgb(37, 34, 45);
     display: flex;
 }
 #sidebar{
     width: 175px;
     height:  100%;
-    background-color: rgb(202, 6, 6); 
+    background-color: rgb(0, 0, 0); 
     overflow-y: hidden;
 
 }
@@ -48,7 +48,7 @@ main{
 /*footeer*/
 footer{
     height: 150px;
-    background-color: black;
+    background-color: rgb(38, 38, 38);
 }
 
 .linear{
@@ -75,7 +75,7 @@ footer{
     padding-right: 4px;
 }
 .padding-left{
-    padding-left: 25px;
+    padding-left: 16px;
 }
 
 .row{
@@ -124,19 +124,19 @@ flex-wrap: wrap;
 }
 
 .col{
-    border:1px solid black;
+    border:1px solid rgba(0, 0, 0, 0);
     display: inline-flex;
     flex-wrap: wrap;
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0);
     justify-items: center;
 }
 
 
 
 .square{
-    background-color: red;
-    border:1px solid black;
+    background-color: rgba(255, 0, 0, 0);
+    border:1px solid rgba(0, 0, 0, 0);
     margin: 20px;
     text-align: center;
 }
@@ -171,6 +171,10 @@ p{
 
 .marg-l-10{
     margin: 10px;
+}
+
+.marg-16{
+    margin-left: 16px;
 }
 
 .color-white{
@@ -232,6 +236,10 @@ li{
     
 }
 
+.size-target-card{
+    width: calc(100vw/6)
+}
+
 img{
     width: 100%;
     height: 100%;
@@ -281,6 +289,7 @@ img{
 }
 .patua-one-regular {
     font-family: "Patua One", serif;
+    font-size: medium;
   }
 
 .whr-1{
@@ -308,16 +317,6 @@ img{
     border-radius: 25%;
 }
 
-.point{
-    bottom: 10px;
-    padding: 5px;
-    border-radius: 50%;
-    border: solid 1px grey;
-    background-color: white;
-    width: 2px;
-    position: relative;
-    right: -295px;
-}
 .position-rl{
     position: relative;
 }
@@ -337,22 +336,18 @@ img{
     padding: 20px;
 }
 
+.size-foot-img{
+    width: 155px;
+}
 .card-image{
-    position: relative;
     opacity: 1;  
 }
 
-
-
 .card-image:hover{
-    opacity: 0.7;
+    opacity: 1;
     content: url(https://static.vecteezy.com/ti/vettori-gratis/t2/7126491-icona-vettore-pulsante-riproduzione-musicale-vettoriale.jpg);
     width: 100%;
     height: max-content;
-}
-
-.position-card{
-
 }
 
 .z-index-0{
