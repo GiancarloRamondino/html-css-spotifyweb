@@ -344,7 +344,7 @@ img{
 }
 
 .card-image:hover{
-    opacity: 1;
+    opacity: 0,5;
     content: url(https://static.vecteezy.com/ti/vettori-gratis/t2/7126491-icona-vettore-pulsante-riproduzione-musicale-vettoriale.jpg);
     width: 100%;
     height: max-content;
